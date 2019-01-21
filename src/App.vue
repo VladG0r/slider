@@ -2,7 +2,6 @@
   <q-layout id="q-app" view="lHh Lpr lFf">
     <q-layout-header>
       <q-toolbar
-        
         :glossy="$q.theme === 'mat'"
         :inverted="$q.theme === 'ios'"
         text-color="tertiary"
@@ -19,20 +18,12 @@
 </template>
 
 <script>
-import { openURL } from 'quasar'
 import SimpleSlider from './components/SimpleSlider.vue'
 
 export default {
   name: 'LayoutDefault',
   components: {
     SimpleSlider
-  },
-  data () {
-    return {
-    }
-  },
-  methods: {
-    openURL
   }
 }
 </script>
