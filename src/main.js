@@ -9,7 +9,15 @@ import 'quasar-extras/material-icons'
 import Quasar from 'quasar'
 
 Vue.use(Quasar, {
-  config: {}
+  config: {
+    framework: {
+      components: [
+        'QCarousel',
+        'QCarouselSlide',
+        'QCarouselControl'
+      ],
+    }
+  }
  })
 
 Vue.config.productionTip = false
