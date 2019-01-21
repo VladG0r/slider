@@ -12,7 +12,7 @@
         v-for="slide in slides"
         :key="`key-${slide.img}`"
         class="flex flex-center"
-        :img-src="`/img/${slide.img}.jpg`"
+        :img-src="`http://vladgor.com/shared_images/${slide.img}.jpg`"
       >
         <div class="text-center">
           <div class="q-display-3">{{ slide.title }}</div>
