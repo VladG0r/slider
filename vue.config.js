@@ -2,7 +2,6 @@ module.exports = {
   pluginOptions: {
     quasar: {
       theme: 'ios',
-      importAll: true
     }
   },
   transpileDependencies: [
