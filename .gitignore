@@ -21,3 +21,4 @@ yarn-error.log*
 *.sw*
 public/img/
 src/assets/
+package-lock.json
