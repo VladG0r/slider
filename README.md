@@ -1,4 +1,4 @@
-# vue_quasar2
+# Simple Slider built using VUE + Quasar(UI framework)
 
 ## Project setup
 ```
